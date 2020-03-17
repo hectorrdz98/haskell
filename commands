@@ -1,0 +1,6 @@
+Run Haskell:    runghc program
+                runhaskell program
+
+Interactive:    ghci
+
+Compile:        ghc program
