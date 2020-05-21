@@ -1,9 +1,9 @@
 import re
 
-#print('p1: ', end='')
-p1 = '2x3+2x2+4x+5=6x'#input()
-#print('p2: ', end='')
-p2 = '-2x3+2x2-2x=0'#input()
+print('p1: ', end='')
+p1 = input()
+print('p2: ', end='')
+p2 = input()
 
 p1div = p1.split("=")
 p2div = p2.split("=")
