@@ -1,17 +1,12 @@
--- dig_fact.hs: Digitos en un factorial
+-- ocurrencias.hs
 
--- Operaciones con polinomios, variable x, coeficientes enteros
--- Polinomio 1: x+x+x+x+x = 5x
--- Polinomio 2: 2x2-x2 = x2
--- Suma: x2+5x
--- Producto: 5x3
-
-import System.Environment
+import System.IO
 
 main = do
-    args <- getArgs
+    putStr "N: "
+    hFlush stdout
+    n <- getLine
     let
-        n = read (args !! 0) :: Integer
         f = factorial n
         c0 = ocurrencias 0 f
         c1 = ocurrencias 1 f

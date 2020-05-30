@@ -1,7 +1,10 @@
 -- quick.hs
 
+import System.IO
+
 main = do
-  putStr "Da una lista de enteros: "
+  putStr "Lista de numeros enteros: "
+  hFlush stdout
   linea <- getLine
   let
     lista = read linea :: [Int]
