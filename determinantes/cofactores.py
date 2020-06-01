@@ -18,4 +18,4 @@ def det(A):
     else:
         return (B[0][0] * B[1][1]) - (B[0][1] * B[1][0])
 
-print("Determinante por cofactores |A|={}".format(det(matriz)))
+print("Determinante por cofactores |A|={}".format(det(matrix)))

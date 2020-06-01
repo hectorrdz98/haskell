@@ -10,7 +10,7 @@ def reduceGauss(matriz3):
 				matriz3[j][k]=matriz3[j][k]+(aux*matriz3[i][k])
 	return matriz3
 
-matrizD=reduceGauss(matriz)
+matrizD=reduceGauss(matrix)
 det=1
 for i in range(0,len(matrizD)):
     det=det*matrizD[i][i]
